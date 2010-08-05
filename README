@@ -1,6 +1,4 @@
-== Introduction
-
-The goal of this project is to create a one page =art= piece on the web. Something like the book of mozille (http://www.mozilla.org/book/). 
+The goal of this project is to create a one page _art_ piece on the web. Something like the book of mozille (http://www.mozilla.org/book/). 
 
 For now there's only a Haiku on it which get pulled from http://randomhaiku.com and displayed with a nice Google Font, feel free to add other things;
 * Lyrics
@@ -8,6 +6,6 @@ For now there's only a Haiku on it which get pulled from http://randomhaiku.com 
 * Quotes
 * Wonderfull CSS 
 
-Create something nice! =)
+Create something nice! 
 
 
