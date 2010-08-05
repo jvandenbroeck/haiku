@@ -1,0 +1,57 @@
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+<title>Furuike ya kawazu tobikomu mizu no oto</title>
+<style type="text/css">
+body { font-family: 'Crimson Text', Georgia, Arial, serif;
+font-size:36px; 
+color:#4A4344;
+ }
+
+#wrapper, #container {
+  	height: 300px;
+  	width: 500px;
+}
+#wrapper {
+  	bottom: 50%;
+  	right: 50%;
+  	position:
+  	absolute;
+}
+#container {
+  	left: 50%;
+  	position: relative;
+  	top: 50%;
+}
+
+#author {
+
+font-size:36px;
+text-align: right;
+
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+        <div id="container">
+
+<% for line in @haiku["poem"]["line"] %>
+<%= line["$"] %>
+<br>
+<% end %>
+
+<!--
+<div id="author">
+- the poetic mail server
+</div>
+-->
+
+</div>
+</div>
+
+</body>
+</html>
